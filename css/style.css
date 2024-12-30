@@ -172,12 +172,12 @@
 }
 
 .navbar-light .navbar-brand img {
-    max-height: 50px;
+    max-height: 125px;
     transition: .5s;
 }
 
 .sticky-top.navbar-light .navbar-brand img {
-    max-height: 45px;
+    max-height: 75px;
 }
 
 .navbar .dropdown-toggle::after {
@@ -252,7 +252,7 @@
     }
     .sticky-top.navbar-light {
         position: fixed;
-        background: var(--bs-light) !important;
+        background: var(--bs-white) !important;
     }
     .navbar-light .navbar-nav .nav-link.nav-contact::before {
         display: none;
@@ -394,7 +394,7 @@
 /*** Counter Facts Start ***/
 
 .counter-facts {
-    background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, 0.7)), url(../img/counter-bg.jpg);
+    background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, 0.7)), url(../img/DSC_8661.JPG);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
